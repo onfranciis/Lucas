@@ -1,0 +1,122 @@
+.pre-stroke{
+    height: 2px;
+    width: 50px;
+    background-color: black;
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+#watchshow{
+    width: 210px;
+    background-color: transparent;
+}
+
+#watchshow button{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+}
+
+.material-icons.md-48{
+    font-size: 50px;
+}
+
+
+
+#sixthSection {
+  height: 700px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  position: relative;
+  margin: 0;
+}
+
+#sixthSectionPart1 {
+  width: 40%;
+}
+
+#sixthSectionPart2ImmediateChild {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+}
+
+#sixthSectionPart2 {
+  width: 60%;
+}
+
+#sixthSectionPart21{
+    position: absolute;
+    z-index: 1;
+    margin: -20px 0px 0px 0px;
+}
+
+#sixthSectionPart22{
+    width: 250px;
+    position: absolute;
+    z-index: 1;
+    margin: -50px 0px 0px 230px;
+}
+
+#sixthSectionPart23{
+    position: absolute;
+    z-index: 1;
+    margin: 290px 0px 0px 100px;
+}
+
+#sixthSectionPart2Circle{
+    position: absolute;
+    z-index: 0;
+    margin: 180px 0px 0px 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  #sixthSection {
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+  }
+
+  #sixthSectionPart1 {
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    order: 15;
+    z-index: 0;
+    margin: 0;
+  }
+
+  #sixthSectionPart2 {
+    height: 600px;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    order: 0;
+    z-index: 0;
+    margin: 0;
+  }
+
+  #sixthSectionPart2ImmediateChild {
+    height: 100%;
+    width: 700px;
+    background-color: transparent;
+    position: relative;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+    #sixthSectionPart2{
+        display: none;
+    }
+}
