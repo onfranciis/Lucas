@@ -103,7 +103,7 @@
     position: relative;
     order: 0;
     z-index: 0;
-    margin: 0;
+    margin: 50px 0 0 0;
   }
 
   #sixthSectionPart2ImmediateChild {
